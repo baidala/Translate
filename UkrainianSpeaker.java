@@ -22,6 +22,11 @@ public class UkrainianSpeaker {
         public void howSay() {
             System.out.println("Привет");
         }
+
+        @Override
+        public String howSayWithTime(int lHour, int lMinutes ) {
+            
+        }
     }
     
 }
