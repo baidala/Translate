@@ -26,4 +26,15 @@ public class Translator implements Speaker {
         
         System.out.println(result);
     }
+    
+    public void whatTimeIsIt(Speaker sp) {
+        sp.howSay();
+        System.out.printf("From howSayWithTime "+sp.howSayWithTime(12, 0));
+    }
+
+    @Override
+    public String howSayWithTime(int lHour, int lMinutes ) {
+        
+        return String.format("The time is - %d:%d.", lHour, lMinutes);
+    }
 }
