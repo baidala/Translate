@@ -22,7 +22,7 @@ public class Translator implements Speaker {
     }
     
     public void writeTime(String format) {
-        String result = String.format(format, hour, minute);
+        String result = String.format(format, hour, minute, halfOfDay);
         
         System.out.println(result);
     }
