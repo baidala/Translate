@@ -14,5 +14,6 @@ public interface Speaker {
     int minute = 30;
     String halfOfDay = "AM";
     void howSay();
+    String howSayWithTime(int lHour, int lMinutes);
     
 }
