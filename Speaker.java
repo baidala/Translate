@@ -12,7 +12,7 @@ package translate;
 public interface Speaker {
     int hour = 12;
     int minute = 30;
-    
+    String halfOfDay = "AM";
     void howSay();
     
 }
